@@ -1,0 +1,41 @@
+
+
+.active {
+	color: red;
+}
+
+.transcript {
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 0.9rem;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5rem;
+
+}
+
+.mejs__time,
+.mejs__broadcast,
+.mejs__captions-layer,
+.mejs__cannotplay,
+.mejs__cannotplay a,
+.mejs__captions-selector-list-item,
+.mejs__chapters-selector-list-item {
+	color:red;
+}
+
+@media (min-width: 768px) {
+
+	body {
+		width: 70%;
+		margin:2% auto 0;
+	}
+
+	video {
+	  width:100%;
+	}
+
+	.transcript {
+		width:100%;
+		margin:0;
+	}
+}
